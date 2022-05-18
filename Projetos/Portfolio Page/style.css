@@ -99,12 +99,12 @@ header{
 
 	.nav-daddy{
 		display: flex;
-		justify-content: center;
-		margin-top: 15px;
+		justify-content: space-around;
+		margin: 10px 5%;
 	}
 
 	.nav-son-a{
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	#text-title{
@@ -118,7 +118,7 @@ header{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		margin: 10px 10%;
+		margin: 10px 5%;
 		text-align: justify;
 		font-size: 14px;
 	}
@@ -134,7 +134,7 @@ header{
 		flex-wrap: wrap;
 
 		justify-content: space-evenly;
-		margin: 0 10%;
+		margin: 0 5%;
 	}
 
 	.about-icon{
@@ -150,6 +150,16 @@ header{
 		font-size: 18px;
 	}
 
+	.exp-daddy{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	
+		margin: 10px 5%;
+	
+		text-align: justify;
+		font-size: 14px;
+	}
 	.contact-daddy{
 		display: flex;
 		justify-content: center;
