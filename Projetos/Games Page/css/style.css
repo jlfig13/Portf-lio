@@ -1,0 +1,108 @@
+html{
+	font-family: 'Lato', sans-serif;
+}
+
+.background01 {
+	background-color: rgb(25, 25, 25);
+} 
+
+.nav-daddy {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgb(45, 45, 45);
+	padding: 10px;
+	font-weight: bold;
+	justify-content: space-around;
+	border-bottom: 1px solid grey;
+}
+
+.nav-son {
+	display: flex;
+	gap: 25px;
+}
+
+.nav-son-a {
+	text-decoration: none;
+	color: white;
+}
+
+.logo-son {
+ width: 75px;
+}
+
+.home-daddy {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 50px 10% 0 10%;
+}
+
+.text-son {
+	color: white;
+	padding-left: 10%;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.game-text {
+	margin-top: 25px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+#game-board {
+	background: black;
+	border: 1px solid white;
+	border-radius: 5px;
+
+	height: 68vmin;
+	width: 78vmin;
+
+	margin: 10px auto;
+
+	display: grid;
+	grid-template-columns: repeat(21, 1fr);
+	grid-template-rows: repeat(21, 1fr);
+}
+
+.snake {
+	background: rgb(0, 185, 40);
+	border: 0.25vmin solid black;
+}
+
+.food {
+	background: rgb(185, 0, 0);
+	border: 0.25vmin solid black;
+	border-radius: 20px;
+}
+
+.footer-daddy{
+	display: flex;
+	padding: 25px 0 5px 0;
+	justify-content: center;
+	flex-direction: row;
+	color: white;
+	text-align: center;
+}
+
+.footer-son{
+	font-size: 10px;
+}
+
+@media screen and (max-width: 720px) {
+	.home-daddy {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.text-son {
+		padding: 20px 0 10px 0;
+	}
+}
